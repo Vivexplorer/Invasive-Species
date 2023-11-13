@@ -1,8 +1,8 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #0f0f0f; /* Dark background color */
+    background-color: #2b2b2b; /* Dark background color */
     color: #ffffff; /* White text color */
 }
 
@@ -12,13 +12,14 @@ body {
 }
 
 header {
-    background-color: #003366; /* Dark blue header background color */
+    background-color: #004080; /* Dark blue header background color */
     color: #ffffff;
     padding: 1em 0;
 }
 
 header h1 {
     margin: 0;
+    color: #ffcc00; /* Yellow accent color */
 }
 
 nav ul {
@@ -36,6 +37,7 @@ nav a {
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
+    transition: color 0.3s ease; /* Smooth transition on hover */
 }
 
 section {
@@ -50,16 +52,38 @@ section {
 .species-item {
     width: 48%; /* Adjust as needed */
     margin-bottom: 20px;
+    background-color: #333333; /* Dark gray background */
+    padding: 15px;
+    border-radius: 8px;
 }
 
 .species-item img {
     width: 100%;
     height: auto;
+    border-radius: 8px; /* Add a slight border radius to images */
 }
 
 footer {
-    background-color: #003366;
+    background-color: #004080;
     color: #ffffff;
     text-align: center;
     padding: 1em 0;
+}
+
+/* Add a subtle box shadow to sections for depth */
+section {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #333333; /* Dark gray background */
+    border-radius: 8px;
+}
+
+/* Style links on hover */
+nav a:hover {
+    color: #ffcc00; /* Yellow accent color on hover */
+}
+
+/* Style footer link on hover */
+footer a:hover {
+    color: #ffcc00; /* Yellow accent color on hover */
 }
