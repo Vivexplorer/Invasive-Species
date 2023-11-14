@@ -87,3 +87,15 @@ nav a:hover {
 footer a:hover {
     color: #ffcc00; /* Yellow accent color on hover */
 }
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
